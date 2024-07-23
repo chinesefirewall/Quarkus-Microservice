@@ -2,7 +2,6 @@ name: BATCH_UPDATE
 
 on:
   schedule:
-    - cron: '0 0,9,10,15,20 * * 1'
     - cron: '0 0,7,10,15,20 * * 2'
   workflow_dispatch:
 
